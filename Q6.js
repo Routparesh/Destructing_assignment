@@ -12,9 +12,9 @@ function data(person){
     const {
         name,
         address: { street },
-      } = person;
-      return { name, street };
-    }
+    } = person;
+    return { name, street };
+}
     
 
 console.log(data(person))
